@@ -8,7 +8,6 @@ class App {
 
   constructor() {
     this.app = express();
-    console.log("REDIS_HOST:" + process.env.REDIS_HOST);
     this.init();
   }
 
